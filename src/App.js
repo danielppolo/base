@@ -8,8 +8,7 @@ class App extends Component {
       <div className="App">
         <Typed>
           <p>For those who gave us darkness.</p>
-          <p>30_03_19</p>
-          <p>Save the date</p>
+          <p>30/03/2019</p>
         </Typed>
       </div>
     );
