@@ -10,6 +10,7 @@ class App extends Component {
           <p>For those who gave us darkness.</p>
           <p>19.406783, -99.178750</p>
           <p>30/03/2019</p>
+          <p></p>
         </Typed>
       </div>
     );

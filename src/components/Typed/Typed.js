@@ -8,6 +8,7 @@ const typed = props => {
         const options = {
             stringsElement: '#typed-strings',
             typeSpeed: 40,
+            onComplete: (arrayPos, self) => {window.history.back()}
           }
           
         new Typed("#typed", options);
