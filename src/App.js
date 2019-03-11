@@ -11,6 +11,7 @@ class App extends Component {
           <p>19.406783, -99.178750</p>
           <p>05/04/2019</p>
           <p>B A S E</p>
+          <p></p>
         </Typed>
       </div>
     );
