@@ -3,6 +3,7 @@ import style from './App.module.scss';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Typed from './components/UI/Typed/Typed';
 import CodeOfConduct from './components/Views/CodeOfConduct/CodeOfConduct';
+import Directives from './components/Views/Directives/Directives';
 
 class App extends Component {
 
@@ -30,9 +31,9 @@ class App extends Component {
           { redirection }
           <Switch>
             <Route path='/codeofconduct' component={CodeOfConduct}/>
-            <Route path='/' render={()=> welcome}/>
+            <Route path='/directives' component={Directives}/>
+            <Route path='/' exact render={()=> welcome}/>
           </Switch>
-          
       </div>
     );
   }
